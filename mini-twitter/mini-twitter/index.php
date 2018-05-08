@@ -1,3 +1,6 @@
+<!-- 
+Created by Stephane Sumo
+-->
 <?php
 
 include "includes/init.php";
