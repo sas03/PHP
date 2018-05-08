@@ -1,3 +1,6 @@
+<!-- 
+Created by Stephane Sumo
+-->
 <?php
 $titre="Déconnection";
 include("includes/init.php");
