@@ -1,3 +1,6 @@
+<!-- 
+Created by Stephane Sumo
+-->
 <?php
 //la methode poste n'a pas de taille limite et n'apparait pas directement
 //dans l'url(il faut ajouter du code php dans la page)
