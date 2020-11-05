@@ -12,27 +12,20 @@ include "includes/init.php";
 
 <!doctype html>
 <html>
+<body>
+
 <header><img src="http://rdemarketing.fr/wp-content/uploads/2012/08/twitter-icon-300x300.png">
 <meta charset="UTF-8">
 <link rel="stylesheet" href="script.css">
 </header>
-</html>
-
+	
+<div>
 <?php
 
-//Vérifier si le formulaire a été rempli avec !empty au lieu de empty(remplacer?)
-if (!empty($_POST['pseudo'])) {
-    echo '<h1>Inscription sur mini-twitter</h1>';
-?>
-<html>
-<body>
-<div>
-    <!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<div>
+    //Vérifier si le formulaire a été rempli avec !empty au lieu de empty(remplacer?)
+    if (!empty($_POST['pseudo'])) {
+        echo '<h1>Inscription sur mini-twitter</h1>';
+    ?>
     <form method="post" action="inscription.php" enctype="multipart/form-data">
         <fieldset><legend>Identifiants</legend>
         <label for="pseudo">* Pseudo :</label>  <input name="pseudo" type="text" id="pseudo" /><br />
